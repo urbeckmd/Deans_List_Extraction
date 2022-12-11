@@ -12,7 +12,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL for Dean's List Webpage
-url = 'https://www.slu.edu/services/emis/apps/deans_list/listing.php?term=202220'
+# Replace "***" with your universities url name
+url = 'https://www.***.edu/services/emis/apps/deans_list/listing.php?term=202220'
 
 # List of all schools to input into search bar of deans list
 schools = ['BA','PL','AS','AH','PK','PH','PS','LP','NR']
