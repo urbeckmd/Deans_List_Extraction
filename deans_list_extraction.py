@@ -12,7 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL for Dean's List Webpage
-# Replace "***" with your university's url name
+# "***" was my university's url name. It was removed for privacy.
 url = 'https://www.***.edu/services/emis/apps/deans_list/listing.php?term=202220'
 
 # List of all schools to input into search bar of deans list
